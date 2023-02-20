@@ -327,14 +327,14 @@ h2.slogan{
 	font-size: 18px;
 	padding: 0 0 0 20px;
 }
-.progress li span.photoshop{width: 100%;}
-.progress li span.illustrator{width: 70%;}
-.progress li span.indesign{width: 40%;}
-.progress li span.flash{width: 80%;}
-.progress li span.html{width: 75%;}
-.progress li span.wordpress{width: 85%;}
-.progress li span.jquery{width: 70%;}
-.progress li span.seo{width: 40%;}
+.progress li span.laravel{width: 100%;}
+.progress li span.react{width: 70%;}
+.progress li span.flask{width: 40%;}
+.progress li span.vue{width: 80%;}
+.progress li span.php{width: 75%;}
+.progress li span.python{width: 85%;}
+.progress li span.javascript{width: 70%;}
+.progress li span.sql{width: 40%;}
 .plagin_list{
 	width: 100%;
 	overflow: hidden;
@@ -540,7 +540,7 @@ transition: all 0.5s ease-in-out;
 .footer-content .social{
 	overflow:hidden;
 	margin: 0 auto 45px;
-	width: 670px;
+	width: 400px; /* width of each icon plus space in between */
 }
 .footer-content .social li{
 	float:left;
@@ -568,6 +568,8 @@ transition: all 0.5s ease-in-out;
 }
 .footer-content .social li.email a{background: url(../images/icon_email.png) no-repeat 50% 50% ;}
 .footer-content .social li.facebook a{background: url(../images/icon_fb.png) no-repeat 50% 50%;}
+.footer-content .social li.github a{background: url(../images/icon_github.png) no-repeat 50% 50%;}
+.footer-content .social li.linkedin a{background: url(../images/icon_linkedin.png) no-repeat 50% 50%;}
 .footer-content .social li.google a{background: url(../images/icon_gl.png) no-repeat 50% 50% ;}
 .footer-content .social li.twitter a{background: url(../images/icon_tw.png) no-repeat 50% 50% ;}
 .footer-content .social li.pinterest a{background: url(../images/icon_pn.png) no-repeat 50% 50%;}
@@ -652,6 +654,10 @@ transition: all 0.5s ease-in-out;
 	.footer-content .social li.email a{
 		background-image: url(../images/icon_email@x2.png);
 		background-size:51px 38px;
+	}
+	.footer-content .social li.github a{
+		background-image: url(../images/icon_github.png);
+		background-size:38px 38px;
 	}
 	.footer-content .social li.facebook a{
 		background-image: url(../images/icon_fb@x2.png);
